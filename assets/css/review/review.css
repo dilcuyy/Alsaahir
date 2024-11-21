@@ -1,0 +1,71 @@
+.reviews {
+    text-align: center;
+    padding: 100px 20px; /* Perbesar jarak atas dan bawah */
+    background-color: #ffffff;
+  }
+  
+  .reviews-container {
+    display: flex;
+    justify-content: center; /* Pusatkan isi */
+    flex-wrap: wrap; /* Izinkan elemen membungkus di layar kecil */
+    gap: 30px; /* Tingkatkan jarak antar kartu */
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .review-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-bottom: 20px; /* Tambahkan jarak antar baris kartu */
+  }
+  
+  .review-quote {
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .review-text {
+    margin: 15px 0;
+    font-size: 14px;
+    color: #000000;
+  }
+  
+  .review-author {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Perbesar jarak antara foto dan teks */
+  }
+  
+  .review-img {
+    width: 60px; /* Sedikit lebih besar untuk kejelasan */
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .author-info h3 {
+    font-size: 16px;
+    margin: 0;
+    color: #000;
+  }
+  
+  .author-info p {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .section-title {
+    font-size: 32px; /* Ukuran font */
+    font-weight: bold; /* Cetak tebal */
+    text-align: center; /* Pusatkan teks */
+    color: #333; /* Warna teks */
+    margin-bottom: 40px; /* Jarak ke elemen berikutnya */
+    text-transform: uppercase; /* Huruf kapital semua */
+  }
+  
