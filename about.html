@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Alsaahir - Toko Online Hijab</title>
+    <!-- Standard Favicon -->
+    <link href="images/main-logo/LogoBrand.png" rel="shortcut icon">
+    <!-- Base Google Font for Web-app -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <!-- Google Fonts for Banners only -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Awesome 5 -->
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="fonts/vendor/fontawesome-free-6.7.1-web/css/all.css">
+    <!-- Ion-Icons 4 -->
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- Owl-Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- Jquery-Ui-Range-Slider -->
+    <link rel="stylesheet" href="css/jquery-ui-range-slider.min.css">
+    <!-- Utility -->
+    <link rel="stylesheet" href="css/utility.css">
+    <!-- Main -->
+    <link rel="stylesheet" href="css/bundle.css">
+</head>
+
+<body>
+
+<!-- app -->
+<div id="app">
+    <!-- Header -->
+    <header>
+        <!-- Top-Header -->
+        <div class="full-layer-outer-header">
+            <div class="container clearfix">
+                <nav>
+                    <ul class="primary-nav g-nav">
+                        <li>
+                            <a href="https://wa.me/62895334686750">
+                                <i class="fas fa-phone u-c-brand u-s-m-r-9"></i>
+                                Telephone:+62 895-3346-86750</a>
+                        </li>
+                        <li>
+                            <a href="mailto:christinlatip119@ubs.ac.id">
+                                <i class="fas fa-envelope u-c-brand u-s-m-r-9"></i>
+                                E-mail: christinlatip119@ubs.ac.id
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul class="secondary-nav g-nav">
+                        <li>
+                            <a>Akun Saya
+                                <i class="fas fa-chevron-down u-s-m-l-9"></i>
+                            </a>
+                            <ul class="g-dropdown" style="width:200px">
+                                <li>
+                                    <a href="cart.html">
+                                        <i class="fas fa-cog u-s-m-r-9"></i>
+                                        Keranjang Saya</a>
+                                </li>
+                                <li>
+                                    <a href="wishlist.html">
+                                        <i class="far fa-heart u-s-m-r-9"></i>
+                                        Daftar Favorit</a>
+                                </li>
+                                <li>
+                                    <a href="checkout.html">
+                                        <i class="far fa-check-circle u-s-m-r-9"></i>
+                                        Checkout</a>
+                                </li>
+                                <li>
+                                    <a href="account.html">
+                                        <i class="fas fa-sign-in-alt u-s-m-r-9"></i>
+                                        Masuk / Daftar</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a>IDN
+                                <i class="fas fa-chevron-down u-s-m-l-9"></i>
+                            </a>
+                            <ul class="g-dropdown" style="width:70px">
+                                <li>
+                                    <a href="#" class="u-c-brand">IDN</a>
+                                </li>
+                                <li>
+                                    <a href="#">ENG</a>
+                                </li>
+                            </ul>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- Top-Header /- -->
+        <!-- Mid-Header -->
+        <div class="full-layer-mid-header">
+            <div class="container">
+                <div class="row clearfix align-items-center">
+                    <div class="col-lg-3 col-md-9 col-sm-6">
+                        <div class="brand-logo text-lg-center">
+                            <a href="index.html">
+                                <img src="images/main-logo/Logo.png" alt="Groover Brand Logo" class="app-brand-logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 u-d-none-lg">
+                        <form class="form-searchbox">
+                            <label class="sr-only" for="search-landscape">Cari</label>
+                            <input id="search-landscape" type="text" class="text-field" placeholder="Cari Hijab Anda" maxlength="50">
+                            <button id="btn-search" type="submit" class="button button-primary fas fa-search"></button>
+                        </form>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <nav>
+                            <ul class="mid-nav g-nav">
+                                <li class="u-d-none-lg">
+                                    <a href="index.html">
+                                        <i class="fa-solid fa-house"></i>
+                                    </a>
+                                </li>
+                                <li class="u-d-none-lg">
+                                    <a href="wishlist.html">
+                                        <i class="fa-solid fa-heart"></i>
+                                    </a>
+                                </li>
+                                <li class="u-d-none-lg">
+                                    <a href="cart.html">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Mid-Header /- -->
+        <!-- Responsive-Buttons -->
+        <div class="fixed-responsive-container">
+            <div class="fixed-responsive-wrapper">
+                <button type="button" class="button fas fa-search" id="responsive-search"></button>
+            </div>
+            <div class="fixed-responsive-wrapper">
+                <a href="wishlist.html">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+        </div>
+        <!-- Responsive-Buttons /- -->
+    </header>
+    <!-- Header /- -->
+    <!-- Page Introduction Wrapper -->
+    <div class="page-style-a">
+        <div class="container">
+            <div class="page-intro">
+                <h2>About</h2>
+                <ul class="bread-crumb">
+                    <li class="has-separator">
+                        <i class="ion ion-md-home"></i>
+                        <a href="index.html">Beranda</a>
+                    </li>
+                    <li class="is-marked">
+                        <a href="about.html">Tentang</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Page Introduction Wrapper /- -->
+    <!-- About-Page -->
+    <div class="page-about u-s-p-t-80">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="about-me-info u-s-m-b-30">
+                        <h1>Selamat Datang
+                            <span>Alsaahir</span>
+                        </h1>
+                        <p>Selamat datang di Alsaahir, destinasi utama untuk segala kebutuhan hijab berkualitas dengan desain yang stylish dan nyaman. Kami percaya bahwa setiap wanita berhak tampil anggun, percaya diri, dan tetap nyaman dalam kesehariannya, dan itu yang menjadi dasar kami dalam menghadirkan produk hijab yang tidak hanya memenuhi standar kualitas, tetapi juga selaras dengan gaya hidup modern.
+                        </p>
+
+                        <h1>
+                            Visi Kami
+                        </h1>
+                        <p>Visi kami adalah untuk menjadi toko hijab terpercaya yang memberikan produk berkualitas tinggi dengan berbagai pilihan desain, bahan, dan model yang sesuai dengan berbagai kebutuhan dan selera wanita Indonesia. Kami ingin setiap pelanggan merasa dihargai, terinspirasi, dan puas dengan setiap pilihan hijab yang kami tawarkan.
+                        </p>
+                        <h1>
+                            Komitmen Kami
+                        </h1>
+                        <p>
+                            Kami berkomitmen untuk terus berkembang, berinovasi, dan memberikan yang terbaik untuk Anda. Setiap produk yang kami tawarkan selalu dipilih dengan hati-hati dan penuh pertimbangan, agar Anda dapat menikmati kualitas hijab yang tidak hanya mendukung penampilan tetapi juga memperhatikan kenyamanan Anda.
+                        </p>
+                        <p>
+                            Terima kasih telah mempercayakan Alsaahir sebagai pilihan hijab Anda. Kami akan terus berusaha memberikan pelayanan terbaik dan produk yang membuat Anda semakin percaya diri setiap hari!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="about-me-image u-s-m-b-30">
+                        <div class="banner-hover effect-border-scaling-gray">
+                            <img class="img-fluid" src="images/product/deskripsi.png" alt="About Picture">
+                        </div>
+                    </div>
+                    <div class="about-social text-center u-s-m-b-30">
+                        <ul class="social-media-list">
+                            <li>
+                                <a href="https://wa.me/62895334686750">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/dilcuyy">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.tiktok.com/@yaaaadilll">
+                                    <i class="fa-brands fa-tiktok"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/a.dilasy/">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:christinlatip119@ubs.ac.id">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://ubs.ac.id/">
+                                    <i class="fa-solid fa-school"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About-Page /- -->
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <!-- Outer-Footer -->
+            <div class="outer-footer-wrapper u-s-p-y-80">
+                <h6>
+                    Untuk penawaran khusus dan informasi diskon lainnya
+                </h6>
+                <h1>
+                    Berlangganan Komunitas kami
+                </h1>
+                <p>
+                    Berlangganan milis untuk menerima pembaruan tentang promosi, produk baru, diskon, dan kupon.
+                </p>
+                <form class="newsletter-form">
+                    <label class="sr-only" for="newsletter-field">Masukan Email Kamu</label>
+                    <input type="text" id="newsletter-field" placeholder="Masukan Email Kamu">
+                    <button type="submit" class="button">Kirim</button>
+                </form>
+            </div>
+            <!-- Outer-Footer /- -->
+            <!-- Mid-Footer -->
+            <div class="mid-footer-wrapper u-s-p-b-80">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <div class="footer-list">
+                            <h6>PELAYANAN PELANGGAN</h6>
+                            <ul>
+                                <li>
+                                    <a href="faq.html">FAQs</a>
+                                </li>
+                                <li>
+                                    <a href="track-order.html">Lacak Pesanan</a>
+                                </li>
+                                <li>
+                                    <a href="terms-and-conditions.html">Syarat & Ketentuan</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <div class="footer-list">
+                            <h6>Perusahaan</h6>
+                            <ul>
+                                <li>
+                                    <a href="index.html">Beranda</a>
+                                </li>
+                                <li>
+                                    <a href="about.html">Tentang</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Kontak</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <div class="footer-list">
+                            <h6>INFORMASI</h6>
+                            <ul>
+                                <li>
+                                    <a href="wishlist.html">Favorit Saya</a>
+                                </li>
+                                <li>
+                                    <a href="cart.html">Keranjang Saya</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <div class="footer-list">
+                            <h6>Alamat</h6>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-location-arrow u-s-m-r-9"></i>
+                                    <span>Jl. Mayor Madmuin Hasibuan No.68, RT.004/RW.004, Margahayu, Kec. Bekasi Timur, Kota Bks, Jawa Barat 17113</span>
+                                </li>
+                                <li>
+                                    <a href="tel:+923086561801">
+                                        <i class="fas fa-phone u-s-m-r-9"></i>
+                                        <span>+62 895-3346-86750</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:christinlatip119@ubs.ac.id">
+                                        <i class="fas fa-envelope u-s-m-r-9"></i>
+                                        <span>
+                                            christinlatip119@ubs.ac.id</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mid-Footer /- -->
+            <!-- Bottom-Footer -->
+            <div class="bottom-footer-wrapper">
+                <div class="social-media-wrapper">
+                    <ul class="social-media-list">
+                        <li>
+                            <a href="https://wa.me/62895334686750">
+                                <i class="arcticons--wa"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://facebook.com/christin.latip.7">
+                                <i class="arcticons--fb"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.tiktok.com/@parktitin">
+                                <i class="arcticons--tiktok"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/parktitin/">
+                                <i class="arcticons--ig"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://shopee.co.id/bagjiseongie">
+                                <i class="arcticons--shopee"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.tokopedia.com/">
+                                <i class="arcticons--tokopedia"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <p class="copyright-text">Copyright &copy; 2024
+                    <a href="index.html">Alsaahir</a> All Right Reserved</p>
+            </div>
+        </div>
+        <!-- Bottom-Footer /- -->
+    </footer>
+    <!-- Footer /- -->
+    <!-- Dummy Selectbox -->
+    <div class="select-dummy-wrapper">
+        <select id="compute-select">
+            <option id="compute-option">All</option>
+        </select>
+    </div>
+    <!-- Dummy Selectbox /- -->
+    <!-- Responsive-Search -->
+    <div class="responsive-search-wrapper">
+        <button type="button" class="button ion ion-md-close" id="responsive-search-close-button"></button>
+        <div class="responsive-search-container">
+            <div class="container">
+                <p>Start typing and press Enter to search</p>
+                <form class="responsive-search-form">
+                    <label class="sr-only" for="search-text">Search</label>
+                    <input id="search-text" type="text" class="responsive-search-field" placeholder="PLEASE SEARCH">
+                    <i class="fas fa-search"></i>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Responsive-Search /- -->
+</div>
+<!-- app /- -->
+<!--[if lte IE 9]>
+<div class="app-issue">
+    <div class="vertical-center">
+        <div class="text-center">
+            <h1>You are using an outdated browser.</h1>
+            <span>This web app is not compatible with following browser. Please upgrade your browser to improve your security and experience.</span>
+        </div>
+    </div>
+</div>
+<style> #app {
+    display: none;
+} </style>
+<![endif]-->
+<!-- NoScript -->
+<noscript>
+    <div class="app-issue">
+        <div class="vertical-center">
+            <div class="text-center">
+                <h1>JavaScript is disabled in your browser.</h1>
+                <span>Please enable JavaScript in your browser or upgrade to a JavaScript-capable browser to register for Groover.</span>
+            </div>
+        </div>
+    </div>
+    <style>
+    #app {
+        display: none;
+    }
+    </style>
+</noscript>
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+window.ga = function() {
+    ga.q.push(arguments)
+};
+ga.q = [];
+ga.l = +new Date;
+ga('create', 'UA-XXXXX-Y', 'auto');
+ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+<!-- Modernizr-JS -->
+<script type="text/javascript" src="js/vendor/modernizr-custom.min.js"></script>
+<!-- NProgress -->
+<script type="text/javascript" src="js/nprogress.min.js"></script>
+<!-- jQuery -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- Popper -->
+<script type="text/javascript" src="js/popper.min.js"></script>
+<!-- ScrollUp -->
+<script type="text/javascript" src="js/jquery.scrollUp.min.js"></script>
+<!-- Elevate Zoom -->
+<script type="text/javascript" src="js/jquery.elevatezoom.min.js"></script>
+<!-- jquery-ui-range-slider -->
+<script type="text/javascript" src="js/jquery-ui.range-slider.min.js"></script>
+<!-- jQuery Slim-Scroll -->
+<script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+<!-- jQuery Resize-Select -->
+<script type="text/javascript" src="js/jquery.resize-select.min.js"></script>
+<!-- jQuery Custom Mega Menu -->
+<script type="text/javascript" src="js/jquery.custom-megamenu.min.js"></script>
+<!-- jQuery Countdown -->
+<script type="text/javascript" src="js/jquery.custom-countdown.min.js"></script>
+<!-- Owl Carousel -->
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<!-- Main -->
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
